@@ -82,11 +82,12 @@ cozy-journal/
 │
 ├── app.py
 ├── assets/
-│   ├── backgrounds/
-│   └── images/
+│   ├── cozy_room.jpg
+│   ├── night_room.jpg
+│   └── rainy_window.jpg
 │
 ├── data/
-│   └── journal_entries.json
+│   └── entries.json
 │
 ├── utils/
 │   ├── storage.py
