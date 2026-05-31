@@ -180,10 +180,10 @@ with container:
     col1, col2 = st.columns([3, 2])
     with col1:
         st.markdown('<div class="cozy-title">Cozy Journal</div>', unsafe_allow_html=True)
-        st.markdown(
-            '<div class="cozy-sub">A quiet space to capture what numbers cannot track.</div>',
-            page_title=None
-        )
+    st.markdown(
+        '<div class="cozy-sub">A quiet space to capture what numbers cannot track.</div>',
+        unsafe_allow_html=True
+    )
     with col2:
         today_str = date.today().strftime("%A, %d %B")
         st.markdown(
